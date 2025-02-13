@@ -74,8 +74,8 @@ header span {
 .about-section .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 60px normal;
+    justify-content: center;
+    gap: 89px normal;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -119,9 +119,9 @@ select:hover,
 .books-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 16px normal;
+    gap: 16px;
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
