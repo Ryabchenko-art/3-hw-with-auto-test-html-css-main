@@ -5,9 +5,8 @@
 }
 
 .container {
-    outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 1140px;
     padding: 0 15px;
     /* 📍 Максимальная ширина для контейнера */
 }
@@ -73,7 +72,7 @@ header span {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    row-gap: 60px;
+    gap: 60px normal;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -117,7 +116,8 @@ select:hover,
 .books-list {
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    justify-content: space-between;
+    gap: 16px normal;
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
@@ -141,8 +141,7 @@ select:hover,
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    row-gap: 20px;
-
+    gap: 20px normal;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
